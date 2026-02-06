@@ -44,7 +44,7 @@ async def start(client, message):
                             url=data["link"]
                         )
                     ]]
-                )
+                ))
             
         else:
             await message.reply_text("❌ Invalid or expired link.")
