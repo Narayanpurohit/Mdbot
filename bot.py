@@ -34,7 +34,18 @@ async def start(client, message):
         data = links_col.find_one({"slug": slug})
 
         if data:
-            await message.reply_text(data["link"])
+            await message.reply_text(
+                "ʜᴇʀᴇ ɪs ʏᴏᴜʀ ʟɪɴᴋ!\n"
+                "ᴄʟɪᴄᴋ ʙᴇʟᴏᴡ ᴛᴏ ᴘʀᴏᴄᴇᴇᴅ",
+                reply_markup=InlineKeyboardMarkup(
+                    [[
+                        InlineKeyboardButton(
+                            "🔗 Open Link",
+                            url=data["link"]
+                        )
+                    ]]
+                )
+            
         else:
             await message.reply_text("❌ Invalid or expired link.")
     else:
