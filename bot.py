@@ -4,7 +4,7 @@ import random, string
 
 API_ID = 15191874
 API_HASH = "3037d39233c6fad9b80d83bb8a339a07"
-BOT_TOKEN = "BOT_TOKEN"
+BOT_TOKEN = "6941908449:AAG4rJU2UzaNIR1G6TvMZH2Kk9M8xdsop8k"
 BOT_USERNAME = "Joe1Obot"   # without @
 
 MONGO_URI = "mongodb://hp108044:zWy9AuflXmsrAfSY@147.93.103.130:27017/?authSource=admin"
