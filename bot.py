@@ -36,8 +36,7 @@ async def start(client, message):
 
         if data:
             await message.reply_text(
-                "ʜᴇʀᴇ ɪs ʏᴏᴜʀ ʟɪɴᴋ!\n"
-                "ᴄʟɪᴄᴋ ʙᴇʟᴏᴡ ᴛᴏ ᴘʀᴏᴄᴇᴇᴅ",
+                "**ʜᴇʀᴇ ɪs ʏᴏᴜʀ ʟɪɴᴋ! ᴄʟɪᴄᴋ ʙᴇʟᴏᴡ ᴛᴏ ᴘʀᴏᴄᴇᴇᴅ**",
                 reply_markup=InlineKeyboardMarkup(
                     [[
                         InlineKeyboardButton(
