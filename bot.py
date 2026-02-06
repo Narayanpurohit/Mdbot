@@ -1,6 +1,7 @@
 from pyrogram import Client, filters
 from pymongo import MongoClient
 import random, string
+from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 API_ID = 15191874
 API_HASH = "3037d39233c6fad9b80d83bb8a339a07"
